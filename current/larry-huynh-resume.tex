@@ -1,0 +1,174 @@
+%%%%%%%%%%%%%%%%%%%% Document setup %%%%%%%%%%%%%%%%%%%%
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\pagestyle{fancy}
+% Clear all header and footer fields
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-7pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
+% Ensure that generate pdf is machine readable / ATS parsable
+\pdfgentounicode=1
+
+
+%%%%%%%%%%%%%%%%%%%% Commands %%%%%%%%%%%%%%%%%%%%
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-3pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubheadingContinue}[2]{
+  \vspace{-3pt}
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{0pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+
+%%%%%%%%%%%%%%%%%%%% Heading %%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{center}
+  {\Huge\scshape Phuc Gia Doan (Larry) Huynh}\\
+  \vspace{3pt}
+  \small{
+    \href{https://www.larryhuynh.dev}{\raisebox{-0.2\height}\faGlobe\ \underline{larryhuynh.dev}}  ~
+    \href{https://www.linkedin.com/in/larryhuynhdev}{\raisebox{-0.2\height}\faLinkedin\ \underline{larryhuynhdev}}  ~
+    \href{https://github.com/larryh12}{\raisebox{-0.2\height}\faGithub\ \underline{larryh12}} ~
+    \href{mailto:larryhuynh+work@protonmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{larryhuynh+work@protonmail.com}} ~
+    \href{tel:+61414180258}{\raisebox{-0.2\height}\faPhone\  \underline{+61 414 180 258}}}
+\end{center}
+\vspace{-7pt}
+
+
+%%%%%%%%%%%%%%%%%%%% About %%%%%%%%%%%%%%%%%%%%
+\section{About}
+  \small{High-achieving ICT graduate passionate about technology, excelling in solving complex problems with software engineering principles and data-driven strategies. My academic and professional experiences have honed my expertise in software engineering, data analytics, and project management. Driven to embrace new challenges, I continually refine my problem-solving abilities and thrive in collaborative, cross-functional teams. As a dedicated team player, I seek opportunities to leverage my skills and knowledge in developing technology solutions that drive business impact and contribute to core business values.}
+
+
+%%%%%%%%%%%%%%%%%%%% Education %%%%%%%%%%%%%%%%%%%%
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {Griffith University}{Brisbane, Queensland, Australia}
+    {Bachelor of Information Technology, 6.8/7.0 GPA}{Mar 2019 -- Dec 2022}
+        \resumeItemListStart
+            \resumeItem{Recipient of the Griffith Academic Excellence Awards in 2019, 2020, and 2022.}
+            \resumeItem{Awarded the Griffith School of ICT Award for Highest GPA Graduate in 2022.}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%%%%%%%%%%%%%%%%%%%% Experience %%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+        {Centre for Applied Energy Economics and Policy Research}{Brisbane, Queensland, Australia}
+            {Software Engineer (Work-Integrated Learning)}{Jul 2022 -- Nov 2022}
+            \resumeItemListStart
+                \resumeItem{Developed a data pipeline application to analyse data from the Australian Energy Market Operator.}
+                \resumeItem{Led cross-functional collaboration, managed application source code, and developed core features.}
+		\resumeItem{Achieved an 80\% improvement in pipeline processing time and a 96\% increase in data extraction accuracy.}
+		\resumeItem{Nominated for the 2022 FirstWave Awards in the ``Best Innovative Project'' category.}
+		\resumeItem{\textbf{Skills:} Data Analysis, Python Programming, GitHub, Version Control, Technical Documentation, Project Management, Software Development Life Cycle (SDLC), Agile Methodologies.}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%%%%%%%%%%%%%%%%%%%% Projects %%%%%%%%%%%%%%%%%%%%
+\section{Projects} 
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+        {Breadit - Modern Full-Stack Reddit Clone}
+        {\href{https://github.com/larryh12/breadit}{\underline{GitHub}}}
+        \resumeItemListStart
+            \resumeItem{Developed a full-stack, Reddit-based social platform application using Next.js and TypeScript.}
+	    \resumeItem{Integrated user management with Clerk and a MySQL database via PlanetScale for subreddit, post, and user data.}
+	    \resumeItem{Implemented object-relational schema mapping with Prisma, along with data caching using Upstash Redis.}
+	    \resumeItem{Implemented client-side data fetching and validation utilising React Query and Zod.}
+	    \resumeItem{Developed back-end APIs to leverage server-side rendering, serverless architecture, and Vercel’s Edge Functions.}
+        \resumeItemListEnd
+        \resumeProjectHeading
+        {ChatGPT Free - Full-Stack ChatGPT Web Application}
+        {\href{https://github.com/larryh12/chatgpt-free}{\underline{GitHub}}}
+        \resumeItemListStart
+            \resumeItem{Developed a free ChatGPT web application for geo-restricted regions, using Next.js and TypeScript.}
+	    \resumeItem{Integrated user authentication with NextAuth and a NoSQL database with Firebase for user and conversation data.}
+	    \resumeItem{Implemented GPT-3.5-Turbo text generation models using OpenAI’s Chat Completions API.}
+	    \resumeItem{Implemented real-time conversation (live chat) in a serverless environment using Google Cloud Firestore.}
+	    \resumeItem{Developed a front-end UI with a multi-theme switcher using Tailwind CSS and DaisyUI.}
+        \resumeItemListEnd
+        \resumeProjectHeading
+        {FLIXX - Trending Movies, TV Shows, Anime Info}
+        {\href{https://github.com/larryh12/flixx-app}{\underline{GitHub}}}
+        \resumeItemListStart
+            \resumeItem{Developed a website featuring trending movies, TV shows, and anime using vanilla HTML, CSS, and JavaScript.}
+	    \resumeItem{Developed RESTful data fetching and parsing functions for the TMDB and MyAnimeList APIs.}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%%%%%%%%%%%%%%%%%%%% Skills %%%%%%%%%%%%%%%%%%%%
+\section{Skills}
+    \begin{itemize}
+    [leftmargin=0in, label={}]\small{\item{
+        \textbf{Languages:} {HTML, CSS, JavaScript, TypeScript, SQL, Python, R, Bash, Markdown.} \\
+        \textbf{Technologies:} {React, Next.js, Node.js, REST API, MySQL, NoSQL, Prisma, Redis, Firebase, Google Cloud Platform, Jupyter, Pandas, Git, GitHub, Docker.} \\
+        \textbf{Courseworks:} {Object-Oriented Programming, Relational Database, Data Science, Data Structures, Algorithms, Network and 
+Security, Linux Operating System.} \\
+        \textbf{Certifications:} {Career Essentials in Administrative Assistance, Business Analysis, Data Analysis, Generative AI, Project Management, Software Development, System Administration by Microsoft and LinkedIn.} \\}}
+    \end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%% References %%%%%%%%%%%%%%%%%%%%
+\section{References}
+  \small{Available upon request.}
+\end{document}
